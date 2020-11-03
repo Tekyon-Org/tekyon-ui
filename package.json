@@ -1,0 +1,22 @@
+{
+  "name": "tekyonui",
+  "version": "1.0.0",
+  "description": "An open source high-performance UI library built with vanilla ES6 JavaScript for the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tekyon-Org/tekyon-ui.git"
+  },
+  "author": "Tekyon Organization",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tekyon-Org/tekyon-ui/issues"
+  },
+  "homepage": "https://github.com/Tekyon-Org/tekyon-ui#readme",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.5.0"
+  }
+}
