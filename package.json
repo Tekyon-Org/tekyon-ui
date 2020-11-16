@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/Tekyon-Org/tekyon-ui#readme",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^2.5.0"
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "navigo": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0"
   }
 }
