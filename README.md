@@ -3,7 +3,7 @@
 </p>
 
 # Tekyon UI
-An open source high-performance library to build reactive user interfaces, written vanilla ES6 JavaScript.
+An open source high-performance library to build reactive user interfaces, written in vanilla ES6 JavaScript.
 Tekyon UI is built on top of the modern Web Components API to ensure modularity and simplicity in usage.
 
 ## Installation
