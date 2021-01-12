@@ -6,6 +6,12 @@
 */
 
 import Navigo from 'navigo';
+import {Client} from './Core/Client/Client';
+
+export {App} from './Core/AppThread/App';
+export {DOM} from './Core/DOM';
+export * from './Core/Component';
+export * from './Components';
 
 /**
  * @class Core
@@ -14,9 +20,19 @@ import Navigo from 'navigo';
 export class Core {
 
     /**
+     * Thread on which the App runs
+    */
+    appThread = null;
+
+    /**
      * @constructor
     */
-    constructor() {
+    constructor(options) {
+
+        this.appThread = options.app ? options.app : self;
+
+        // Start listening to the App worker
+        Client.listen(this.appThread);
 
     }
 

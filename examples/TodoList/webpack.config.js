@@ -4,7 +4,7 @@ const path = require('path');
 const DEVMODE = true;
 
 module.exports = {
-    entry: './app.js',
+    entry: './init.js',
     output: {
         filename: 'app.bundle.js',
         path: path.resolve(__dirname, ''),

@@ -1,4 +1,4 @@
-tui-header {
+app-header {
     background-color: #1ea1e6;
     display: flex;
     height: 70px;
@@ -7,7 +7,7 @@ tui-header {
     color: white;
     box-shadow: 0px 2px 6px #00000040;
 }
-tui-header .tui.title {
+app-header .tui.title {
     font-size: 18px;
     font-weight: 600;
 }
